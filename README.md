@@ -1,9 +1,9 @@
 -   Tools Used
-
+    -   - Python 3
     -   - Selenium
 
 -   Requirements
-
+    -   - Installation of Python 3
     -   - Installation of Selenium module using pip
     -   - chromedriver for selenium
 
