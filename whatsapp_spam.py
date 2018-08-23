@@ -15,6 +15,7 @@ name=input("Enter name of the victim:")
 Msg=input("Enter your spam message:")
 driver=webdriver.Chrome()
 driver.get(url)
+#After this you need to login to whatsapp web by scanning and then press anything in the console
 input("Press any key to continue...")
 driver.find_element_by_class_name("jN-F5").send_keys(name)
 sleep(2)
@@ -27,5 +28,6 @@ for i in l:
 while(True):
     driver.find_element_by_class_name("_2S1VP").send_keys(Msg)
     driver.find_element_by_class_name("_2S1VP").send_keys(Keys.RETURN)
+    #Here you can set the time after which message will be spammed
     sleep(3)
 
